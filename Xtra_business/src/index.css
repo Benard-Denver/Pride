@@ -1,0 +1,80 @@
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+  flex-wrap: wrap;
+  background-image: url("./assets/pic1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
+
+.dialog-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.dialog-container {
+  font-size: larger;
+}
+
+.dialog-heading {
+  color: red;
+  font-size: 100px;
+  display: inline-block;
+  animation: bounce 1s infinite;
+  -webkit-text-stroke: 1px white;
+}
+
+@keyframes bounce {
+
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-20px);
+  }
+}
+
+.answer-buttons {
+  display: flex;
+  gap: 20px;
+}
+
+.answer-button {
+  padding: 10px 50px;
+  background-color: red;
+  color: white;
+  font-size: 30px;
+  border: none;
+  border-radius: 10px;
+}
+
+.answer-button:hover {
+  background-color: brown;
+}
+
+.answer-button:active {
+  background-color: rgb(236, 153, 153);
+}
+
+.thank {
+  font-size: 150px;
+  color: red;
+  display: inline-block;
+  animation: bounce 1s infinite;
+  -webkit-text-stroke: 1px white;
+}
+
+.gratitude {
+  background-image: url("./assets/pic\ 2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
